@@ -7,17 +7,30 @@ import Getstarted from './components/Getstarted'
 import Form from './components/Form';
 import Form2 from './components/Form2';
 import Travel from './components/Travel';
+import {Helmet} from 'react-helmet';
 
 
 function App() {
+ 
+ 
+   
+ 
   return (
     
     
+    
     <>
+    <Helmet>
+      <title>
+        Paryatak
+      </title>
+    </Helmet>
     <Router> 
+    
     <Navbar/>
 
 <Switch>
+
 
   <Route path='/' exact component=
   {Home}/>
