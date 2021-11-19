@@ -1,11 +1,8 @@
 import React from 'react';
 import '../App.css'
-import { Button } from './Button';
 import { Button2 } from './Button2';
-import Carditem from './Carditem';
 import './HeroSection.css';
-import { Link } from 'react-router-dom'
-import Form from './Form';
+import Footer from './Footer';
 
 
  function HeroSection() {
@@ -14,7 +11,7 @@ import Form from './Form';
   }
   return (
     <div className='hero-container'>
-      <video src='/videos/video-4.mp4' autoPlay loop muted/>
+      <img src='images/img-1stw.jpg'/>
       
       <h1 >Paryatak<i className='fas fa-globe-asia fa-0.5x'></i></h1>
       <p>What are you waiting for?</p>
@@ -31,16 +28,12 @@ import Form from './Form';
             
           </Button2>
           
-                  
-          
-       
-         
-         
+                      
       </div>
      
     
     </div>
-   
+     
     
   );
 }

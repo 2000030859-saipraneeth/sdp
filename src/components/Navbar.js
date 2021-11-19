@@ -61,9 +61,14 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
                            Login
                        </Link>
                    </li>
+                   <li className='nav-item'>
+                       <Link to='/sign-up' className='nav-links'  >
+                       Sign Up
+                       </Link>
+                   </li>
                    
                </ul>
-               {button && <Button  buttonStyle='btn--outline'>Sign Up</Button>}
+               
        </div>
      </nav>
      </div>
