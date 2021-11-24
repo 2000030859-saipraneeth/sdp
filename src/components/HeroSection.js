@@ -2,10 +2,10 @@ import React from 'react';
 import '../App.css'
 import { Button2 } from './Button2';
 import './HeroSection.css';
-import Footer from './Footer';
 
 
- function HeroSection() {
+
+function HeroSection() {
   const headingStyle={
     color:'blue'
   }

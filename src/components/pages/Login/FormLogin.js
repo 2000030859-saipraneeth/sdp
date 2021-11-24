@@ -1,7 +1,7 @@
 import React from 'react';
 import validate from './Validateinfo';
 import useForm2 from './useForm2';
-import './Form.css';
+import './Form2.css';
 
 
 const FormLogin = ({ submitForm }) => {

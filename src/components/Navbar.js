@@ -24,7 +24,7 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
        showButton();
        },[]);
     
-     window.addEventListener('resize',showButton)
+     
      return (
      <>
      <div>
@@ -37,18 +37,7 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
                </div>
               
                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                   <li>
-               <div style={{ width: 200, marginRight: 6,marginTop:16 }} className='searchbox'>
-        
-        <ReactSearchAutocomplete
-                      autoFocus
-                     
-        />
-        
-      </div>
-   
-      </li>
-             
+                   
                      
                   
                    <li className='nav-item'>

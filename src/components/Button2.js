@@ -14,7 +14,7 @@ export const Button2 =({
     const checkButtonStyle =Styles.includes(buttonStyle)?buttonStyle:Styles[0];
     const checkButtonSize =Styles.includes(buttonSize)?buttonStyle:Sizes[0];
     return(
-        <Link to='/Getstarted' className='btn-mobile'>
+        <Link to='/Getstartedpage' className='btn-mobile'>
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             type={type}

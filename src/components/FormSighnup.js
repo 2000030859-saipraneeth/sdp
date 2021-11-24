@@ -1,5 +1,5 @@
 import React,{useRef,useState} from 'react';
-import validate from './Validateinfo';
+import validate from './pages/Login/Validateinfo';
 import useForm from './useForm';
 import './Form.css';
 import serv from './services'

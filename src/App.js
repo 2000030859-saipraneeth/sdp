@@ -3,9 +3,9 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
-import Getstarted from './components/Getstarted'
+import Getstartedpage from './components/pages/Getstart/Getstartedpage';
 import Form from './components/Form';
-import Form2 from './components/Form2';
+import Form2 from './components/pages/Login/Form2';
 import Travel from './components/Travel';
 import {Helmet} from 'react-helmet';
 
@@ -34,13 +34,13 @@ function App() {
 
   <Route path='/' exact component=
   {Home}/>
-  <Route path='/Getstarted' exact component=
-  {Getstarted}/>
+  <Route path='/Getstartedpage' exact component=
+  {Getstartedpage}/>
    <Route path='/sign-up' exact component=
   {Form}/>
   <Route path='/Login' exact component=
   {Form2}/>
-  <Route path='/Getstarted/Travel' exact component=
+  <Route path='/Travel' exact component=
   {Travel}/>
 </Switch>
 

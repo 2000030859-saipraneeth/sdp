@@ -1,12 +1,10 @@
 import React from 'react';
-import '../App.css'
-import { Button } from './Button';
-import Carditem from './Carditem';
-import Cards from './Cards';
-import './Cards.css';
+import '../../../App.css'
+import Carditem from '../../Carditem';
+import './../../Cards.css';
 import './Getstarted.css';
 
- function Getstarted() {
+function Getstarted() {
   return (
     <div className='hero-container'>
       <video src="/videos/video5.mp4" autoPlay loop muted/>
@@ -22,7 +20,7 @@ import './Getstarted.css';
                     desc='Find best deals Train,BUS , Flight Tickets, for India & International travel. Book cheap Travel tickets
                      online for Domestic & 
                     International airlines, customized holiday packages and special deals on Tour Bookings acording to season.'
-                    path='/Getstarted/Travel'
+                    path='/Travel'
                     btntext='Book now'
                     className='card1'
                     />
