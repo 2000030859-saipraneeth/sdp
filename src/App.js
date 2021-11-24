@@ -8,6 +8,8 @@ import Form from './components/Form';
 import Form2 from './components/pages/Login/Form2';
 import Travel from './components/Travel';
 import {Helmet} from 'react-helmet';
+import Loginpage from './components/pages/Login/Loginpage';
+import Sighnuppages from './components/pages/Sighnuppages';
 
 
 function App() {
@@ -37,9 +39,9 @@ function App() {
   <Route path='/Getstartedpage' exact component=
   {Getstartedpage}/>
    <Route path='/sign-up' exact component=
-  {Form}/>
+  {Sighnuppages}/>
   <Route path='/Login' exact component=
-  {Form2}/>
+  {Loginpage}/>
   <Route path='/Travel' exact component=
   {Travel}/>
 </Switch>
