@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+              Paryatak
+              <i className='fas fa-globe-asia'></i>
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>Paryatak © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -79,7 +79,8 @@ function Footer() {
               <i class='fab fa-facebook-f' />
             </Link>
             <Link
-              class='social-icon-link instagram'
+              class='social-icon-link  
+              instagram'
               to='/'
               target='_blank'
               aria-label='Instagram'

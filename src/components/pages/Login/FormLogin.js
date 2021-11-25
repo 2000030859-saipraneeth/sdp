@@ -10,8 +10,6 @@ const FormLogin = ({ submitForm }) => {
     validate
   );
 
- 
-
   return (
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
