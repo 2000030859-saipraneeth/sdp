@@ -16,18 +16,16 @@ function Carditem(props) {
                       {props.text}
                       </h5>
                       <h6 className='cards__item__desc'>{props.desc}</h6>
-                      
-                      <Link to={props.path} className='card-btn'>
-           
-                    
             <button
             className='crdbtn'
+            onClick="location.href='https://moodle.kluniversity.in/course/view.php?id=6843'"
+            
            
             >
                 {props.btntext}
             </button>
        
-        </Link>
+       
                  </div>
                   </Link></li>  
         </>

@@ -4,10 +4,13 @@ import Carditem from '../../Carditem';
 import './../../Cards.css';
 import './Getstarted.css';
 
+
 function Getstarted() {
   return (
-    <div className='hero-container'>
-      <video src="/videos/video5.mp4" autoPlay loop muted/>
+    
+    <div className='hero-container1'>
+      
+      <video className='video2'src="/videos/video5.mp4" autoPlay loop muted/>
      <div>
      
             <div className='cards__container'>
@@ -34,6 +37,7 @@ function Getstarted() {
                     btntext='Know More'
                     className='card2'
                     />
+                    
                     <Carditem
                     src='images/img-hospitality.jpg'
                     text='Hospitality'
@@ -42,7 +46,7 @@ function Getstarted() {
                     Get information for weekend trips to cities like Mumbai or Bengaluru and you can find the right hotel quickly
                     .'
                     btntext='Book now'
-                    path='/services'
+                    path='/Hospitality'
                     className='card1'
                     />
                     </ul>

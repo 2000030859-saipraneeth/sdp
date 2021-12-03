@@ -30,7 +30,7 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
      <div>
      <nav className='navbar'>
        <div className='navbar-container'>
-           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}> Paryatak <i className='fas fa-globe-asia'></i></Link>
+           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>Paryatak<i className='fas fa-globe-asia'></i></Link>
           
            <div className='menu-icon' onClick={handleClick}>
                <i className={click ? 'fas fa-times':'fas fa-bars'}/>
@@ -47,12 +47,12 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
                    </li>
                    <li className='nav-item'>
                        <Link to='/Login' className='nav-links'  >
-                           Login
+                           Log in
                        </Link>
                    </li>
                    <li className='nav-item'>
                        <Link to='/sign-up' className='nav-links'  >
-                       Sign Up
+                       Sighn up
                        </Link>
                    </li>
                    

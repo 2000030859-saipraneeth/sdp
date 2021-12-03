@@ -1,18 +1,21 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Getstartedpage from './components/pages/Getstart/Getstartedpage';
-import Form from './components/Form';
-import Form2 from './components/pages/Login/Form2';
-import Travel from './components/Travel';
+
+import Hosppage from './components/pages/Hosppage';
 import {Helmet} from 'react-helmet';
-import Loginpage from './components/pages/Login/Loginpage';
-import Sighnuppages from './components/pages/Sighnuppages';
+import Register from './components/register/register';
+import Login from './components/login/login';
+import Loginpage from './components/pages/Loginpage';
+import signuppage from './components/pages/Sighnuppage';
 
 
 function App() {
+
+  const [ user, setLoginUser] = useState({})
  
  
    
@@ -29,21 +32,26 @@ function App() {
     </Helmet>
     <Router> 
     
-    <Navbar/>
+    
 
 <Switch>
 
+<Route exact path='/Getstartedpage'>
+            
+              <Getstartedpage setLoginUser={setLoginUser} /> 
+            
+            </Route>
 
   <Route path='/' exact component=
   {Home}/>
-  <Route path='/Getstartedpage' exact component=
-  {Getstartedpage}/>
+ 
    <Route path='/sign-up' exact component=
-  {Sighnuppages}/>
-  <Route path='/Login' exact component=
-  {Loginpage}/>
-  <Route path='/Travel' exact component=
-  {Travel}/>
+  {signuppage}/>
+   <Route path='/login'>
+            <Loginpage/>
+          </Route>
+  <Route path='/Hospitality' exact component=
+  {Hosppage}/>
 </Switch>
 
 
