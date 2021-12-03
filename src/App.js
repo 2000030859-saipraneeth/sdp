@@ -11,14 +11,20 @@ import Register from './components/register/register';
 import Login from './components/login/login';
 import Loginpage from './components/pages/Loginpage';
 import signuppage from './components/pages/Sighnuppage';
+import vistara from './components/Hotels/vistara';
+import vydehi from './components/Hotels/vydehi';
+import Taramani from './components/Hotels/Taramani';
+import senohouse from './components/Hotels/senohouse';
+import pepark from './components/Hotels/pepark';
+import Mariya from './components/Hotels/Mariya';
+import kartav from './components/Hotels/kartav';
+import janimansion from './components/Hotels/janimansion';
 
 
 function App() {
 
   const [ user, setLoginUser] = useState({})
- 
- 
-   
+
  
   return (
     
@@ -50,8 +56,27 @@ function App() {
    <Route path='/login'>
             <Loginpage/>
           </Route>
-  <Route path='/Hospitality' exact component=
+  <Route path='/vistara' exact component=
+  {vistara}/>
+   <Route path='/vydehi' exact component=
+  {vydehi}/>
+   <Route path='/Taramani' exact component=
+  {Taramani}/>
+   <Route path='/senohouse' exact component=
+  {senohouse}/>
+   <Route path='/pepark' exact component=
+  {pepark}/>
+   <Route path='/Mariya' exact component=
+  {Mariya}/>
+   <Route path='/kartav' exact component=
   {Hosppage}/>
+   <Route path='/kanika' exact component=
+  {kartav}/>
+   <Route path='/janimansion' exact component=
+  {janimansion}/>
+   <Route path='/Hospitality' exact component=
+  {Hosppage}/>
+
 </Switch>
 
 

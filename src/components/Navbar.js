@@ -41,17 +41,17 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
                      
                   
                    <li className='nav-item'>
-                       <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                       <Link to='/' className='nav-links1' onClick={closeMobileMenu}>
                        <i class="fas fa-home"></i>
                        </Link>
                    </li>
                    <li className='nav-item'>
-                       <Link to='/Login' className='nav-links'  >
+                       <Link to='/Login' className='nav-links1'  >
                            Log in
                        </Link>
                    </li>
                    <li className='nav-item'>
-                       <Link to='/sign-up' className='nav-links'  >
+                       <Link to='/sign-up' className='nav-links1'  >
                        Sighn up
                        </Link>
                    </li>

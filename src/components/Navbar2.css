@@ -56,7 +56,7 @@
     }
     
     .nav-links {
-      color: rgb(0, 0, 0);
+      color: rgb(240, 235, 235);
       display: flex;
       align-items: center;
       text-decoration: none;
@@ -162,5 +162,24 @@
         transition: 250ms;
       }
     }
+    .popup{
+      background-color: rgb(250, 191, 115);
+      height: 150px;
+      width: 400px;
+      border-radius: 20px;
+      opacity: .8;
+  }
+  .contact{
+      color: black;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding-top: 10px;
+  }
+  .mailid{
+      color: black;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: large;
+  }
    
     

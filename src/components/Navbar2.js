@@ -1,13 +1,14 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect,useModal} from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
-import './Navbar.css'
+import './Navbar2.css'
 import Search from './Navsearch';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 
 
  
- function Navbar() {
+ function Navbar2() {
+    
     
      const [click,setClick] = useState(false);
      const [button,setButton]=useState(true)
@@ -60,11 +61,12 @@ import { ReactSearchAutocomplete } from 'react-search-autocomplete';
                
        </div>
      </nav>
+
      </div>
      </>
     
      )
  }
  
- export default Navbar;
+ export default Navbar2;
  
