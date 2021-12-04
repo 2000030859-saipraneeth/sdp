@@ -1,5 +1,6 @@
 .navbar {
-  background:transparent;
+  
+  /* background:transparent; */
     height: 80px;
     display:block;
     justify-content: center;
@@ -38,6 +39,7 @@
   }
   
   .nav-menu {
+    
     display: grid;
     position: fixed;
     grid-template-columns: repeat(4, auto);

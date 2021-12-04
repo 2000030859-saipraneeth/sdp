@@ -33,7 +33,7 @@ function Getstarted() {
                     label='Tourism'
                     desc='Know the info about touring,accommodations,and entertaining tourists spots  & travel guide, its travel attractions like wildlife
                     , hill stations, beaches, adventure, pilgrimage and tour packages related to them.'
-                    path='/services'
+                    path='/Tourism'
                     btntext='Know More'
                     className='card2'
                     />

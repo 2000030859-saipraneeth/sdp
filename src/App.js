@@ -19,11 +19,14 @@ import pepark from './components/Hotels/pepark';
 import Mariya from './components/Hotels/Mariya';
 import kartav from './components/Hotels/kartav';
 import janimansion from './components/Hotels/janimansion';
+import kanika from './components/Hotels/kanika';
+import Hosppayment from './components/Hosppayment';
 
 
 function App() {
 
   const [ user, setLoginUser] = useState({})
+  
 
  
   return (
@@ -31,6 +34,7 @@ function App() {
     
     
     <>
+    
     <Helmet>
       <title>
         Paryatak
@@ -69,13 +73,15 @@ function App() {
    <Route path='/Mariya' exact component=
   {Mariya}/>
    <Route path='/kartav' exact component=
-  {Hosppage}/>
-   <Route path='/kanika' exact component=
   {kartav}/>
+   <Route path='/kanika' exact component=
+  {kanika}/>
    <Route path='/janimansion' exact component=
   {janimansion}/>
    <Route path='/Hospitality' exact component=
   {Hosppage}/>
+   <Route path='/Tourism' exact component=
+  {Hosppayment}/>
 
 </Switch>
 
