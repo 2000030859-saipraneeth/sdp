@@ -10,6 +10,7 @@ const Register = () => {
     const [ user, setUser] = useState({
         name: "",
         email:"",
+        phone:"",
         password:"",
         reEnterPassword: ""
     })
@@ -23,8 +24,8 @@ const Register = () => {
     }
 
     const register = () => {
-        const { name, email, password, reEnterPassword } = user
-        if( name && email && password && (password === reEnterPassword)){
+        const { name, email, phone, password, reEnterPassword } = user
+        if( name && email && phone && password && (password === reEnterPassword)){
             axios.post("http://localhost:9002/register", user)
             .then( res => {
                 alert(res.data.message)
@@ -46,6 +47,7 @@ const Register = () => {
             <h1>Hey nice to meet You!</h1>
             <input type="text" name="name" value={user.name} placeholder="Your Name" onChange={ handleChange }></input>
             <input type="text" name="email" value={user.email} placeholder="Your Email" onChange={ handleChange }></input>
+            <input type="text" name="phone" value={user.phone} placeholder="Enter mobile number" onChange={ handleChange }></input>
             <input type="password" name="password" value={user.password} placeholder="Your Password" onChange={ handleChange }></input>
             <input type="password" name="reEnterPassword" value={user.reEnterPassword} placeholder="Re-enter Password" onChange={ handleChange }></input>
             <div className="button" onClick={register} >Register</div>

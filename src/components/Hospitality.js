@@ -4,7 +4,6 @@ import Carditem from './Carditem';
 import './Cards.css';
 import Footer from './Footer';
 import './Hospitality.css'
-import { scards } from './smallcards';
 import Navbar2 from './Navbar2'
 
 
@@ -17,9 +16,9 @@ function Hosp() {
       <div>
       
 
-        <div className='cards__container1'>
+        <div className='cards__container'>
           <div className='cards__wrapper1'>
-            <ul className='cards__items1'>
+            <ul className='cards__items'>
 
             <h1>Explore worlds Top Hotels   |</h1>
               <Carditem
@@ -58,7 +57,7 @@ function Hosp() {
                 className='card1'
               />
             </ul>
-            <ul className='cards__items1'>
+            <ul className='cards__items'>
             <h1>Explore Top deals    |</h1>
               <Carditem
 
@@ -97,7 +96,7 @@ Get information for weekend trips to cities like Mumbai or Bengaluru and you can
                 className='card1'
               />
             </ul>
-            <ul className='cards__items1'>
+            <ul className='cards__items'>
             <h1>Explore More   |</h1>
 
 

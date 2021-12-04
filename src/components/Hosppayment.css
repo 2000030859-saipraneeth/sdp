@@ -3,7 +3,7 @@
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
-    margin-top:10rem;
+    margin-top:0rem;
     margin-left: 45rem;
     margin-right: 20rem;
     text-shadow: 0 0 5px black;
@@ -22,6 +22,7 @@
     z-index:-1;
     margin-left: -12rem;
     margin-bottom: -2rem;
+    border-radius: 2rem;
 }
 .pwayg{
     object-fit: cover;
@@ -29,4 +30,19 @@
     height: 100%;
     position:fixed;
     z-index:-1;
+   
+}
+.fa-credit-card{
+    margin-top: 30rem;
+    margin-left: -5rem;
+    color: black;
+}
+.fa-wallet{
+
+    margin-left: 5rem;
+}
+.desc1 >h1{
+margin-bottom: 5rem;
+font-size: 50px;
+margin-left: -2rem;
 }

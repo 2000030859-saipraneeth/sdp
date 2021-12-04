@@ -11,9 +11,11 @@ function Getstarted() {
     <div className='hero-container1'>
       
       <video className='video2'src="/videos/video5.mp4" autoPlay loop muted/>
+      <h3>HI need a more info about travel</h3>
+    <h3> <a href="https://festive-davinci-a6bf28.netlify.app/">Try this </a></h3>
      <div>
      
-            <div className='cards__container'>
+            <div className='cards__container1'>
                 <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <Carditem

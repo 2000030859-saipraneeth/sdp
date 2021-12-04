@@ -43,6 +43,7 @@ const Login = ({setLoginUser}) => {
             <div className="button" onClick={login}>Login</div>
             <p>or</p>
             <div className="button" onClick={() => history.push("/sign-up")}>Register</div>
+          
         </div>
         </div>
         </div>

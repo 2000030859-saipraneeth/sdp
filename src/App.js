@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import Navbar from './components/Navbar';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
@@ -7,8 +6,7 @@ import Getstartedpage from './components/pages/Getstart/Getstartedpage';
 
 import Hosppage from './components/pages/Hosppage';
 import {Helmet} from 'react-helmet';
-import Register from './components/register/register';
-import Login from './components/login/login';
+
 import Loginpage from './components/pages/Loginpage';
 import signuppage from './components/pages/Sighnuppage';
 import vistara from './components/Hotels/vistara';
@@ -21,6 +19,8 @@ import kartav from './components/Hotels/kartav';
 import janimansion from './components/Hotels/janimansion';
 import kanika from './components/Hotels/kanika';
 import Hosppayment from './components/Hosppayment';
+import Tourism from './components/Tourism';
+import Tourismpage from './components/pages/Tourismpage';
 
 
 function App() {
@@ -81,7 +81,7 @@ function App() {
    <Route path='/Hospitality' exact component=
   {Hosppage}/>
    <Route path='/Tourism' exact component=
-  {Hosppayment}/>
+  {Tourismpage}/>
 
 </Switch>
 

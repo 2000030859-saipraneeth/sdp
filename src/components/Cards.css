@@ -21,12 +21,23 @@
      
     position: relative;
     margin: 50px 40 0px;
+   
+  }
+  .cards__wrapper1 {
+     
+    position: relative;
+    margin: 50px 40 0px;
+    margin-top: 80rem;
   }
   
   .cards__items {
     
     margin-bottom: 64px;
     
+    
+  }
+  .cards__items>h1{
+color: white;
   }
   
   .cards__item {

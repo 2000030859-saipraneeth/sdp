@@ -4,7 +4,6 @@ const mongoose =require('mongoose')
 // import cors from "cors"
 // import mongoose from "mongoose"
 
-
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded())
@@ -20,7 +19,8 @@ mongoose.connect("mongodb://localhost:27017/myLoginRegisterDB", {
 const userSchema = new mongoose.Schema({
     name: String,
     email: String,
-    password: String
+    password: String,
+    phone: String
 })
 
 const User = new mongoose.model("User", userSchema)
@@ -42,7 +42,9 @@ app.post("/login", (req, res)=> {
 }) 
 
 app.post("/register", (req, res)=> {
-    const { name, email, password} = req.body
+    const { name, email, password, phone} = req.body
+    const validatephone = require('validate-phone-number-node-js')
+    const result =validatephone.validate('+911774645645');
     User.findOne({email: email}, (err, user) => {
         if(user){
             res.send({message: "User already registerd"})
@@ -50,7 +52,8 @@ app.post("/register", (req, res)=> {
             const user = new User({
                 name,
                 email,
-                password
+                password,
+                phone,
             })
             user.save(err => {
                 if(err) {

@@ -7,7 +7,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.13.13",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "validate": "^5.1.0",
+    "validate-phone-number-node-js": "0.0.1"
   },
   "devDependencies": {},
   "scripts": {
