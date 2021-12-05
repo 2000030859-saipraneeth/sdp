@@ -15,7 +15,7 @@ function HeroSection() {
       
       <h1 >Paryatak<i className='fas fa-globe-asia fa-0.5x'></i></h1>
       <p>What are you waiting for?</p>
-      <div className='chatbot'><Chatbot/></div>
+      {/* <div className='chatbot'><Chatbot/></div> */}
       
      
       <div className='hero-btns'>
