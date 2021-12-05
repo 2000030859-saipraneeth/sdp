@@ -21,6 +21,9 @@ import kanika from './components/Hotels/kanika';
 import Hosppayment from './components/Hosppayment';
 import Tourism from './components/Tourism';
 import Tourismpage from './components/pages/Tourismpage';
+import Chatbot from './components/chatbot';
+import Chatpage from './components/Chatpage';
+import Navbar2 from './components/Navbar2';
 
 
 function App() {
@@ -34,14 +37,21 @@ function App() {
     
     
     <>
+    {/* <div className="chaticon">
+    <i class="fas fa-headset"></i>
+    </div>
+    <div className="chatbox">
+
+    </div> */}
+    
     
     <Helmet>
       <title>
         Paryatak
       </title>
     </Helmet>
+  
     <Router> 
-    
     
 
 <Switch>
@@ -51,6 +61,8 @@ function App() {
               <Getstartedpage setLoginUser={setLoginUser} /> 
             
             </Route>
+            
+           
 
   <Route path='/' exact component=
   {Home}/>
@@ -82,6 +94,12 @@ function App() {
   {Hosppage}/>
    <Route path='/Tourism' exact component=
   {Tourismpage}/>
+   <Route path='/payment' exact component=
+  {Hosppayment}/>
+  <Route path='/chatbot' exact component={Chatpage}/>
+    
+  
+  
 
 </Switch>
 

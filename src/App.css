@@ -42,4 +42,13 @@
     color: #fff;
     font-size: 100px;
   }
+ .fa-headset{
+   position: fixed;
+   right: 30px;
+   bottom:0;
+   font-size: 80px;
+   color: #fff;
+   cursor: pointer;
+   z-index: 1000;
+ }
  

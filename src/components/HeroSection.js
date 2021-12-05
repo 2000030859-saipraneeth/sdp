@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css'
 import { Button2 } from './Button2';
 import './HeroSection.css';
-
+import Chatbot from './chatbot';
 
 
 function HeroSection() {
@@ -15,6 +15,8 @@ function HeroSection() {
       
       <h1 >Paryatak<i className='fas fa-globe-asia fa-0.5x'></i></h1>
       <p>What are you waiting for?</p>
+      <div className='chatbot'><Chatbot/></div>
+      
      
       <div className='hero-btns'>
         

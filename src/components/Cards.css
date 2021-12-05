@@ -42,9 +42,9 @@ color: white;
   
   .cards__item {
     margin: 50px 40 0px;
- background-image: url("https://wallpapercave.com/wp/wp2019673.jpg");
- /*background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://besthqwallpapers.com/Uploads/14-11-2019/111607/gray-stylish-texture-gold-lines-black-texture-gray-mesh-texture-black-and-gold-abstract-background.jpg");*/
- 
+ /* background-image: url("https://wallpapercave.com/wp/wp2019673.jpg"); */
+ /* background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://besthqwallpapers.com/Uploads/14-11-2019/111607/gray-stylish-texture-gold-lines-black-texture-gray-mesh-texture-black-and-gold-abstract-background.jpg"); */
+ background-color: rgba(7, 6, 6, 0.5);
  display: flex;
     flex: 1;
     margin: 5 1rem;

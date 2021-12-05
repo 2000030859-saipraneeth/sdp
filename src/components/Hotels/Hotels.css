@@ -80,3 +80,10 @@
 .h1-btns .btn{
     margin: 6px;
 }
+.availdate{
+    width: 100px;
+    height: 40px;
+
+    margin-left: 2rem;
+    background-color: rgb(31, 155, 31);
+}

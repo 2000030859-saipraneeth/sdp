@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar2 from '../Navbar2';
 import './Hotels.css'
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
+
 
 function vistara() {
   return (
@@ -31,6 +33,21 @@ function vistara() {
        Place :Manali<br/>
        contact :040-20209876<br/>
        price :5000/- per day<br/>
+       <Link to='/payment' >
+       <button className="availdate">
+       6th dec
+     </button>
+     </Link>
+     <Link to='/payment' >
+     <button className="availdate">
+       7th dec
+     </button>
+     </Link>
+     <Link to='/payment' >
+     <button className="availdate">
+       9th dec
+     </button>
+     </Link>
 
      </div>
      

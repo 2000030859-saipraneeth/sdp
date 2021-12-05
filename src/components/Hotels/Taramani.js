@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hotels.css'
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 function Taramani() {
   return (
@@ -29,6 +30,21 @@ function Taramani() {
        Place :Chennai<br/>
        contact :040-20209876<br/>
        price :4500/- per day<br/>
+       <Link to='/payment' >
+       <button className="availdate">
+       6th dec
+     </button>
+     </Link>
+     <Link to='/payment'>
+     <button className="availdate">
+       7th dec
+     </button>
+     </Link>
+     <Link to='/payment' >
+     <button className="availdate">
+       9th dec
+     </button>
+     </Link>
 
      </div>
      

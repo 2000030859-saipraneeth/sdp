@@ -9,6 +9,12 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
+var http= require("http"); 
+http.createServer(function(request,response){ 
+    response.writeHead(200, {'Content-type':'text/plain'});
+ response.end("Hello"); } ).listen(2024);
+  console.log("server running at local host:2024")
+
 mongoose.connect("mongodb://localhost:27017/myLoginRegisterDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true
